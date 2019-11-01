@@ -1,0 +1,45 @@
+body{
+	background-color: lightgrey;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 50px;
+	padding-left: 30px;
+    font-family: "Times New Roman"
+}
+
+input{
+	padding:20px;
+}
+
+/* left justified on a centered div */
+.wrapper{
+	background-color: white;
+	width: 90%; /*set the width you want for th div */
+	margin: 0 auto; /* centers the div on the page */
+	text-align: left; /*left justifies the text in the div */
+	border: 2px solid black; /*put a border around the box */
+	padding: 30px;
+}
+
+/* content div */
+.data{
+	float:left;
+	width: 97%; /*set the width you want for the div */
+	margin: 0 auto; /* centers the div on the page */
+	text-align: left; /*left justifies the text in the div */
+	padding: 20px;
+	border: 1px solid pink;
+}
+
+.button {
+  background-color: lightgreen
+  border: none;
+  color: white;
+  padding: 20px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}

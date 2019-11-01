@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{{pageTitle }}</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/stylesheet.css') }}">
+</head>
+<body>
+    <h1> My Calculator </h1>
+<hr>
+
+<div class="wrapper">
+
+	<div class="data">
+	    {% block body %}
+
+	    {% endblock %}
+	</div> <!-- close the data div -->
+<div style="clear:both;"></div> <!-- clear styling -->
+
+</div> <!-- close the wrapper div -->
+
+</body>
+</html>
